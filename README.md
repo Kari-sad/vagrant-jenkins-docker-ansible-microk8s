@@ -21,7 +21,14 @@ or
    
     vagrant up --provision
 
+**VM name & hostname:** devenv  
+**VM ip address:** 192.168.0.20  
+#### To access created VM ####
+    vagrant ssh
 
-#### To delete created VM: ####
+#### To delete created VM ####
 
     vagrant destroy
+
+#### Jenkins initial password ####
+Jenkins initial password will be shown at the end of the provisioning process. 
